@@ -32,6 +32,7 @@ namespace OrigoDB.Core.Storage.Sql
             ProviderStatements["System.Data.OleDb"] = new OleDbStatements();
         }
 
+//test
 
         public SqlCommandStore(EngineConfiguration config)
             :base(config)
